@@ -1,0 +1,109 @@
+{
+  "Books": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "4"},
+          "title": {"S": "Educated"},
+          "author": {"S": "Tara Westover"},
+          "genre": {"S": "Biography"},
+          "description": {"S": "A memoir about a young woman who grows up in a strict survivalist family and eventually escapes to earn a PhD from Cambridge."},
+          "coverImage": {"S": "/book-covers/educated.jpg"},
+          "rating": {"N": "4.6"},
+          "publishedYear": {"N": "2018"},
+          "isbn": {"S": "978-0399590504"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "5"},
+          "title": {"S": "Sapiens"},
+          "author": {"S": "Yuval Noah Harari"},
+          "genre": {"S": "History"},
+          "description": {"S": "A brief history of humankind from the Stone Age to the modern age."},
+          "coverImage": {"S": "/book-covers/sapiens.jpg"},
+          "rating": {"N": "4.7"},
+          "publishedYear": {"N": "2014"},
+          "isbn": {"S": "978-0062316097"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "6"},
+          "title": {"S": "The Silent Patient"},
+          "author": {"S": "Alex Michaelides"},
+          "genre": {"S": "Thriller"},
+          "description": {"S": "A woman shoots her husband and then never speaks again. A psychotherapist is determined to unravel the mystery."},
+          "coverImage": {"S": "/book-covers/silent-patient.jpg"},
+          "rating": {"N": "4.3"},
+          "publishedYear": {"N": "2019"},
+          "isbn": {"S": "978-1250301697"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "7"},
+          "title": {"S": "Dune"},
+          "author": {"S": "Frank Herbert"},
+          "genre": {"S": "Science Fiction"},
+          "description": {"S": "Set in the distant future amidst a huge interstellar empire, the story follows Paul Atreides."},
+          "coverImage": {"S": "/book-covers/dune.jpg"},
+          "rating": {"N": "4.8"},
+          "publishedYear": {"N": "1965"},
+          "isbn": {"S": "978-0441172719"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "8"},
+          "title": {"S": "Thinking, Fast and Slow"},
+          "author": {"S": "Daniel Kahneman"},
+          "genre": {"S": "Psychology"},
+          "description": {"S": "Explores the two systems that drive the way we think and make decisions."},
+          "coverImage": {"S": "/book-covers/thinking-fast-slow.jpg"},
+          "rating": {"N": "4.5"},
+          "publishedYear": {"N": "2011"},
+          "isbn": {"S": "978-0374533557"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "9"},
+          "title": {"S": "Where the Crawdads Sing"},
+          "author": {"S": "Delia Owens"},
+          "genre": {"S": "Fiction"},
+          "description": {"S": "A coming-of-age story about a young girl who grows up alone in the marshes of North Carolina."},
+          "coverImage": {"S": "/book-covers/crawdads.jpg"},
+          "rating": {"N": "4.6"},
+          "publishedYear": {"N": "2018"},
+          "isbn": {"S": "978-0735219090"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "10"},
+          "title": {"S": "The Four Agreements"},
+          "author": {"S": "Don Miguel Ruiz"},
+          "genre": {"S": "Self-Help"},
+          "description": {"S": "A practical guide to personal freedom based on ancient Toltec wisdom."},
+          "coverImage": {"S": "/book-covers/four-agreements.jpg"},
+          "rating": {"N": "4.7"},
+          "publishedYear": {"N": "1997"},
+          "isbn": {"S": "978-1878424310"}
+        }
+      }
+    }
+  ]
+}
