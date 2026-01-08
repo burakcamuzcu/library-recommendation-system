@@ -6,13 +6,12 @@ phases:
       nodejs: 20
     commands:
       - echo "Installing dependencies..."
-      - npm ci --prefer-offline --no-audit
+      - npm install
       
   build:
     commands:
       - echo "Building application..."
       - npm run build
-      - echo "Build completed"
       
 artifacts:
   files:
